@@ -1,0 +1,75 @@
+/*mine*/
+
+body{
+	background-image: linear-gradient(135deg, white, lightblue);
+	font-family: 'Verdana', sans-serif;
+	color: black;
+	transition: background 0.5s ease, color 0.5s ease;
+	margin: 0;
+}
+
+body.dark-mode {
+    background: linear-gradient(to bottom, #1e1e1e, #3a3a3a); /* Darker gradient */
+    color: white;
+}
+
+/*Navigation Bar*/
+
+nav ul {
+    display: flex; /* Aligns the list items horizontally */
+    justify-content: center; /* Centers the navigation bar */
+    list-style-type: none; /*Chat GPT*/
+    margin: 0;
+    padding: 0;
+	background: linear-gradient(to bottom, #0000FF, #ADDAE6);
+	width: 100%;
+	box-sizing: border-box;
+}
+
+nav ul li{
+	margin-right: 15px; /*Chat GPT*/
+	margin-bottom: 20px;
+}
+
+div{
+	padding: 40px;
+	border: none;
+}
+
+h1{
+	text-align: center;
+}
+
+a {
+    text-decoration: none; /*Chat GPT*/
+	color: white;
+}
+
+/*Dark Mode Toggle*/
+            /*ChatGPT*/
+.dark-mode-toggle {
+	position: fixed;
+	top: 10px;  /*distance from top of webpage*/
+	right: 10px;   /*distance from right of webpage*/
+	z-index: 1000;  /*Makes sure it stays on top of webpage*/
+}
+
+#mode-toggle {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#mode-toggle:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE.HTML>
+<html>
+	<head>
+		<title> Working Resume </title> 
+		<link rel="stylesheet" type="text/css" href="../css/main.css"> 
+		
+		 <div class="dark-mode-toggle">
+			<!-- Button for toggle dark move -->
+			<button id="mode-toggle"> Toggle Dark Mode </button>
+			<!-- reference to javascript for toggle button -->
+			<script src="../javascript/script.js"></script>
+		  </div>
+		
+		<style> 
+			 .skill-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            margin-bottom: 20px;
+			border: none;
+        }
+        .skill-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+			border: none;
+        }
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+			transform: translate(-50%, -50%);
+            width: 67%;
+            height: 60%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+			border: none;
+        }
+        .skill-container:hover .overlay {
+            opacity: 1;
+			border: none;
+        }
+        .overlay-text {
+            font-size: 24px;
+            text-align: center;
+			border: none;
+        }
+	
+		</style>
+
+
+	</head>
+	
+	<body>
+		<h1 style="font-family:verdana;"> Working Resume </h1>
+		<div id="container">
+			<header>
+			<nav>
+				<ul>
+					<li><a href="main.html" title="main">Home</a></li>
+					<li><a href="education.html" title="Education">Education</a></li>
+					<li><a href="skills.html" title="Skills">Skills</a></li>
+					<li><a href="projects.html" title="Projects">Projects</a></li>
+					<li><a href="work experience.html" title="Work Experience">Work Experience</a></li>
+				</ul>
+				</nav>
+			</header>
+		<div id="content">
+			<h2>Skills</h2>
+				
+				<div class="skill-container">
+					<img class="skill-image" src="../images/computernetwork.jpg" alt="computer network clipart" style="width: 300px; height: 200px;">
+					<div class="overlay">
+						<div class="overlay-text">Networking Fundamentals</div>
+					</div>
+				</div>
+				
+				<div class="skill-container">
+					<img class="skill-image" src="data:image/jpeg;base64,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" alt="c++ icon"> <br>
+					<div class="overlay">
+						<div class="overlay-text">C++</div>
+					</div>
+				</div>
+				
+				<div class="skill-container">
+					<img class="skill-image" src="../images/bash.png" alt="bash icon"> <br>
+					<div class="overlay">
+						<div class="overlay-text">Bash</div>
+					</div>
+				</div>
+				
+				<div class="skill-container">
+					<img class="skill-image" src="../images/wireshark.jpg" alt="wireshark icon">
+					<div class="overlay">
+						<div class="overlay-text">Wireshark</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>	
+	
+</html>
